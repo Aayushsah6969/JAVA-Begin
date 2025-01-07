@@ -1,4 +1,4 @@
-import java.util.*;
+
 class Rectangle{
     double length;
     double breadth;
