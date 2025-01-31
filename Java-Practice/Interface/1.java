@@ -1,17 +1,13 @@
 // Define the interface
 interface Animal {
-    // Abstract method (no body)
     void makeSound();
     
-    // Default method (has a body)
     default void sleep() {
         System.out.println("Sleeping...");
     }
 }
 
-// Implement the interface in a class
 class Dog implements Animal {
-    // Provide implementation for the abstract method
     public void makeSound() {
         System.out.println("Woof! Woof!");
     }

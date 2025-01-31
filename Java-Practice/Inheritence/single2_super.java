@@ -12,7 +12,6 @@ class B extends A{
 	int c;
 	B(int p, int q, int r){
 		super(p,q);
-		// System.out.println(p+" "+q+" "+r);
 		c=r;
 	}
 	void display(){

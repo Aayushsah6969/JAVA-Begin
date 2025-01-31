@@ -8,9 +8,9 @@ abstract class A{
     }
 }
 class B extends A{
-    void display(){
-        System.out.println("CSE");
-    }
+    // void display(){
+    //     System.out.println("CSE");
+    // }
 }
 //driver class
 
@@ -21,6 +21,6 @@ class ony_non_abst {
         B ob = new B();
         ob.show();
         ob.add(2,5);
-        ob.display();
+        // ob.display();
     }
 }
