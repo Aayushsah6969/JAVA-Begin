@@ -14,11 +14,11 @@ def delete_class_files(directory):
                     print(f"Error deleting {file_path}: {e}")
 
 if __name__ == "__main__":
-    # Ask the user for the directory path
-    directory = input("Enter the directory path where you want to delete .class files: ")
+    # Get the parent directory of the current script
+    parent_directory = os.path.dirname(os.path.abspath(__file__))
 
-    # Check if the directory exists
-    if os.path.isdir(directory):
-        delete_class_files(directory)
-    else:
-        print("The specified directory does not exist.")
+    # Walk through all directories within the parent directory
+    for root, dirs, files in os.walk(parent_directory):
+        for dir in dirs:
+            dir_path = os.path.join(root, dir)
+            delete_class_files(dir_path)

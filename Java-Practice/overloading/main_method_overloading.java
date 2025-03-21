@@ -9,8 +9,8 @@ public class main_method_overloading {
         main_method_overloading obj = new main_method_overloading();
         obj.square(5);
     }
-    public static void main(String[] args){
-        main_method_overloading objs= new main_method_overloading();
-        objs.square(4.5f);
-    }
+    // public static void main(String[] args){
+    //     main_method_overloading objs= new main_method_overloading();
+    //     objs.square(4.5f);
+    // }
 }
