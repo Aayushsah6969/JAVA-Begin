@@ -1,6 +1,7 @@
 package pack;
 public class Addition{
-    public void add(int a, int b){
+    public static void add(int a, int b){
+        //code logic
         System.out.println("Sum: "+(a+b));
     }
 }

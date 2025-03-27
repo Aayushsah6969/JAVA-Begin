@@ -16,7 +16,7 @@ class WashingMachine implements motor{
     }
 }
 
-class main{
+class Main{
     public static void main(String ar[]){
         WashingMachine ob = new WashingMachine();
         ob.run();
