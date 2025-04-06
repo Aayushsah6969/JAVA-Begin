@@ -11,6 +11,7 @@ class A {
   }
 }
 
+
 class MyThread1 extends Thread {
   A t;
 
