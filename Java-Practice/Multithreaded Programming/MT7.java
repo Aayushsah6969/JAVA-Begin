@@ -15,7 +15,6 @@ class Multi extends Thread {
                   System.out.println(i);
             }
       }
-
       public static void main(String ar[]) {
             Multi t1 = new Multi();
             Multi t2 = new Multi();
